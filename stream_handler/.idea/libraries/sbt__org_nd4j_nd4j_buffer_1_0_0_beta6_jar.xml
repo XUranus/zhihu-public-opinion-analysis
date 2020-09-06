@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="sbt: org.nd4j:nd4j-buffer:1.0.0-beta6:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.cache/coursier/v1/https/repo1.maven.org/maven2/org/nd4j/nd4j-buffer/1.0.0-beta6/nd4j-buffer-1.0.0-beta6.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.cache/coursier/v1/https/repo1.maven.org/maven2/org/nd4j/nd4j-buffer/1.0.0-beta6/nd4j-buffer-1.0.0-beta6-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.cache/coursier/v1/https/repo1.maven.org/maven2/org/nd4j/nd4j-buffer/1.0.0-beta6/nd4j-buffer-1.0.0-beta6-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

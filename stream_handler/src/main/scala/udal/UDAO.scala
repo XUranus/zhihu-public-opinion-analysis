@@ -1,0 +1,5 @@
+package udal
+
+object UDAO {
+
+}

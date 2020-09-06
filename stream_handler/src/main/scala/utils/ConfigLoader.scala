@@ -1,0 +1,25 @@
+package utils
+
+
+import com.typesafe.config.{Config, ConfigFactory}
+
+object ConfigLoader {
+
+  val configuration: Config = ConfigFactory.load()
+
+  val ZOOKEEPER_QUORUM:String = configuration.getString("appConfig.ZOOKEEPER_QUORUM")
+  val ZOOKEEPER_PORT:String = configuration.getString("appConfig.ZOOKEEPER_PORT")
+
+  val SPARK_MASTER:String = configuration.getString("appConfig.SPARK_MASTER")
+  val SPARK_APP_NAME:String = configuration.getString("appConfig.SPARK_APP_NAME")
+  val SPARK_SQL_SHUFFLE_PARTITIONS:String = configuration.getString("appConfig.SPARK_SQL_SHUFFLE_PARTITIONS")
+  val SPARK_TESTING_MEMORY:String = configuration.getString("appConfig.SPARK_TESTING_MEMORY")
+
+  val REDIS_HOST:String = configuration.getString("appConfig.REDIS_HOST")
+  val REDIS_PORT:Int = configuration.getInt("appConfig.REDIS_PORT")
+
+  val LOCATION_FILE_PATH:String = configuration.getString("appConfig.LOCATION_FILE_PATH")
+  val STOP_WORDS_FILE_PATH:String = configuration.getString("appConfig.STOP_WORDS_FILE_PATH")
+
+  val KAFKA_BROKERS:String = configuration.getString("appConfig.KAFKA_BROKERS")
+}
